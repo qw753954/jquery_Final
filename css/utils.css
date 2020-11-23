@@ -1,0 +1,20 @@
+.container {
+  min-width: 1000px;
+  margin: 0 auto;
+}
+
+.d-flex {
+  display: flex;
+}
+
+.jc-center {
+  justify-content: center;
+}
+
+.jc-between {
+  justify-content: space-between;
+}
+
+.ai-center {
+  align-items: center;
+}
