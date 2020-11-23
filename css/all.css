@@ -155,6 +155,8 @@ a {
 }
 
 img {
+  max-width: 100%;
+  height: auto;
   display: block;
 }
 
@@ -215,6 +217,11 @@ button:focus {
 
 .flex-wrap {
   flex-wrap: wrap;
+}
+
+.swiper-container {
+  width: 1002px;
+  height: 342px;
 }
 
 .swiper-pagination-bullet-active {
@@ -309,11 +316,6 @@ button:focus {
   color: #fff;
   z-index: 1;
   background-color: rgba(0, 0, 0, 0.4);
-}
-
-.swiper-container {
-  width: 1002px;
-  height: 342px;
 }
 
 .intro {
