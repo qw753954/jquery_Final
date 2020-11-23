@@ -25,8 +25,12 @@ $(document).ready(function() {
 
         // 頁數點點
         pagination: {
-            el: '.swiper-pagination',
-            clickable: true
+            el: '.swiper-pagination'
+        },
+
+        navigation: {
+            nextEl: '.swiper-button-next',
+            prevEl: '.swiper-button-prev',
         }
     })
 

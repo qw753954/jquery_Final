@@ -3,6 +3,21 @@
     height: 342px;
 }
 
+.swiper-container:hover .swiper-button-prev:after {
+    opacity: 1;
+}
+
+.swiper-container:hover .swiper-button-next:after {
+    opacity: 1;
+}
+
+.swiper-button-prev:after,
+.swiper-button-next:after {
+    opacity: 0;
+    transition: .4s;
+    color: rgba(255, 255, 255, .9) !important;
+}
+
 .swiper-pagination-bullet-active {
     background-color: #fff !important;
 }
